@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+ul li {
+  list-style: none;
+  border: 1px solid grey;
+  padding: 6px 10px 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 20px;
+  font-weight: 700;
+}
+button {
+  box-shadow: 0px 3px 5px gray;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+ul {
+  padding-left: 0;
+}
+.add {
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+}
+.add:hover {
+  border: 2px solid gray;
+}
+.complete-button {
+  background-color: green;
+  color: white;
+}
+.complete-button:hover {
+  border: 2px solid gray;
+}
+.cancel-button {
+  background-color: yellow;
+}
+.cancel-button:hover {
+  border: 2px solid gray;
+}
+.delete {
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+}
+.delete:hover {
+  border: 2px solid gray;
+}
